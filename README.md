@@ -15,4 +15,4 @@ Este é um sistema CRUD completo para gerenciamento de jogos, desenvolvido como 
 ### 3. Interface (Frontend)
 - Acesse a pasta `frontend` pelo terminal.
 - Execute `npm install` para instalar as dependências.
-- Execute `npm start` para iniciar a aplicação.
+- Execute `npm run dev` para iniciar a aplicação.
