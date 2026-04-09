@@ -10,7 +10,7 @@ Este é um sistema CRUD completo para gerenciamento de avaliação de jogos.
 ### 2. Servidor (Backend)
 - Acesse a pasta `server` pelo terminal através de `cd server`.
 - Execute `npm install` para instalar as dependências.
-- Execute `node index.js` para iniciar o servidor na porta 3001.
+- Execute `nodemon index.js` para iniciar o servidor na porta 3001.
 
 ### 3. Interface (Frontend)
 - Acesse a pasta `client` pelo terminal através de `cd client`.
