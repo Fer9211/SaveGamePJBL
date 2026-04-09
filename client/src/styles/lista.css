@@ -1,0 +1,112 @@
+.lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    justify-content: space-between;
+    width: 93%;
+    height: 640px;
+    overflow-y: auto;   /* Habilita a rolagem vertical */
+    overflow-x: hidden; /* Evita rolagem lateral indesejada */
+    scrollbar-width: none; 
+  
+  /* 2. Para Internet Explorer e Edge antigo */
+  -ms-overflow-style: none;
+}
+.componentes {
+    background-color: #222036b2;
+    border: 1px solid #9c89ce;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    border-radius: 10px;
+    color: rgb(209, 209, 209);
+    margin-top: 30px;
+    
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+    transform-origin: center; 
+}
+
+.componentes:hover {
+    background-color: #3d3a5c;
+    
+
+    transform: scale(1.05); 
+    
+    /* 4. Remova as repetições de width/height aqui */
+    cursor: pointer; /* Dica: adiciona a mãozinha de clique */
+}
+.componenteEsquerda{
+    width: 35%;
+    padding: 10px;    
+}
+.componenteDireita{
+    width: 65%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.capaJogo{
+    width: 130px;
+    height: 180px;
+    border-radius: 10px;
+}
+.titulo{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+.plataformas{
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+}
+.plataformas div{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.generos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 10px;
+    
+}
+.generos div{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    background-color: #464366;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.estrelas{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+/* Estrela preenchida (Nota que o jogo tem) */
+.estrela-ativa {
+    color: #FFD700 !important; /* Amarelo Ouro bem forte */
+}
+
+/* Estrela "vazia" (O que falta para chegar a 5) */
+.estrela-inativa {
+    color: #FFD700 !important;
+    opacity: 0.3;
+}
+
+.icon-plataforma i {
+    color: #00aaff;
+    margin-right: 5px;
+}
