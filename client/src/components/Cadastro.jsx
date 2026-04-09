@@ -33,7 +33,7 @@ function Cadastro({ aoVoltar }) {
             await axios.post("http://localhost:3001/cadastrar", formData, {
                 headers: { 'Content-Type': 'multipart/form-data' }
             });
-            alert("Jogo cadastrado com sucesso! 🎉");
+            alert("Jogo cadastrado com sucesso!");
             aoVoltar();
         } catch (err) {
             const mensagemErro = err.response?.data?.erro || "Erro ao conectar com o servidor.";
