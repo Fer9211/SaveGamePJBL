@@ -1,4 +1,4 @@
-# SAVE GAME - Sistema de Gestão de Jogos
+# SAVE GAME
 
 **Desenvolvido por:** Fernanda Costa Moraes
 
