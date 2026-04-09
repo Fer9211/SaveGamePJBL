@@ -2,7 +2,7 @@
 
 **Desenvolvido por:** Fernanda Costa Moraes
 
-Este é um sistema CRUD completo para gerenciamento de jogos, desenvolvido como requisito para o Trabalho 5.
+Este é um sistema CRUD completo para gerenciamento de avaliação de jogos.
 ## Como rodar o projeto
 ### 1. Banco de Dados
 - Importe o arquivo `banco_dados.sql` no seu MySQL Workbench. 
