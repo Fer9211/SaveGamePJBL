@@ -5,7 +5,7 @@
 Este é um sistema CRUD completo para gerenciamento de avaliação de jogos.
 ## Como rodar o projeto
 ### 1. Banco de Dados
-- Importe o arquivo `banco_dados.sql` no seu MySQL Workbench. 
+- Importe o arquivo `games.sql` no seu MySQL Workbench. 
 
 ### 2. Servidor (Backend)
 - Acesse a pasta `server` pelo terminal através de `cd server`.
