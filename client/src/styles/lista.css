@@ -6,11 +6,10 @@
     justify-content: space-between;
     width: 93%;
     height: 640px;
-    overflow-y: auto;   /* Habilita a rolagem vertical */
-    overflow-x: hidden; /* Evita rolagem lateral indesejada */
+    overflow-y: auto;
+    overflow-x: hidden;
     scrollbar-width: none; 
   
-  /* 2. Para Internet Explorer e Edge antigo */
   -ms-overflow-style: none;
 }
 .componentes {
@@ -34,8 +33,7 @@
 
     transform: scale(1.05); 
     
-    /* 4. Remova as repetições de width/height aqui */
-    cursor: pointer; /* Dica: adiciona a mãozinha de clique */
+    cursor: pointer;
 }
 .componenteEsquerda{
     width: 35%;
@@ -95,12 +93,9 @@
     margin-left: 10px;
     border-radius: 5px;
 }
-/* Estrela preenchida (Nota que o jogo tem) */
 .estrela-ativa {
-    color: #FFD700 !important; /* Amarelo Ouro bem forte */
+    color: #FFD700 !important;
 }
-
-/* Estrela "vazia" (O que falta para chegar a 5) */
 .estrela-inativa {
     color: #FFD700 !important;
     opacity: 0.3;
